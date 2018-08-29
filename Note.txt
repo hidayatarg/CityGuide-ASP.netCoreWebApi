@@ -70,3 +70,11 @@ the controlling part
 
 
 #Api Controller names should be plural
+
+#SehirRehber API NuGet package 7.01
+	-AutoMapper install
+	-AutoMapper.extension.Microsoft.DependencyInjection 5.01
+	
+	-Need automapper configuration in Helpers
+	we add configuartion which object will map which object
+
