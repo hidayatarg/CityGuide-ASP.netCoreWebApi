@@ -2,3 +2,18 @@
 
 #controller
 the controlling part
+
+
+
+// GET api/values
+        [HttpGet]
+        public ActionResult GetValues()
+        {
+            var values = _context.Values.ToList();
+            return Ok(values);
+        }
+
+
+
+
+#Wrote the upper in Async Task
