@@ -8,7 +8,8 @@ namespace SehirRehber.API.Data
 {
     public class DataContext:DbContext
     {
-        public DataContext()
+        //Injection settings
+        public DataContext(DbContextOptions<DataContext> options): base (options)
         {
             
         }
