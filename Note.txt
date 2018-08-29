@@ -67,3 +67,6 @@ the controlling part
 	);
 
 #IAppRepository All operation Signature are placed
+
+
+#Api Controller names should be plural
