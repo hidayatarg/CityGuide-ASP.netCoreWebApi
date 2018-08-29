@@ -30,6 +30,12 @@ namespace SehirRehber.API
                 x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc();
             services.AddCors();
+
+            //last dependency injection
+            //In every request create an object of
+            //In case a controller request for IAppRepository Return AppRepository
+            services.AddScoped<IAppRepository,AppRepository>();
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
