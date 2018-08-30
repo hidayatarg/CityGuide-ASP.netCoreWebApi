@@ -30,7 +30,15 @@ namespace SehirRehber.API
             services.AddDbContext<DataContext>(x =>
                 x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddAutoMapper();
-            services.AddMvc();
+            services.AddMvc().AddJsonOptions(opt =>
+                {
+                    // Ignore Reference Looping 
+                    opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                });
+            //for circulation 
+            //it goes to cities first then to photos then again cities 
+            
+
             services.AddCors();
 
             //last dependency injection
