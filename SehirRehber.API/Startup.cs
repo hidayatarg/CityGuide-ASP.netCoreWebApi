@@ -53,6 +53,7 @@ namespace SehirRehber.API
             //In every request create an object of
             //In case a controller request for IAppRepository Return AppRepository
             services.AddScoped<IAppRepository,AppRepository>();
+            services.AddScoped<IAuthRepository,AuthRepository>();
 
             // Can be Used from other completed projects
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>

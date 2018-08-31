@@ -87,3 +87,12 @@ When he send request we will check that token for the authentication
 
 #Authentication Repository
 #Concrete auth Repository
+
+#For Register and Login we make Separate Dtos
+Reasons:
+		-Because in Login we always may want password and Username
+		-in Register there might be more informations
+
+
+
+#In startup.cs we need place a rule if program want IAuthRepository give AuthRepository
