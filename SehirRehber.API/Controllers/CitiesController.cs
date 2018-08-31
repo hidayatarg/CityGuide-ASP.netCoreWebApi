@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking;
 using SehirRehber.API.Data;
 using SehirRehber.API.Dtos;
 using SehirRehber.API.Models;
@@ -69,6 +70,15 @@ namespace SehirRehber.API.Controllers
             var city = _appRepository.GetCityById(id);
             var cityToReturn = _mapper.Map<CityForDto>(city);
             return Ok(cityToReturn);
+        }
+
+        // api/cities/photos/?cityId=1
+        [HttpGet]
+        [Route("photos")]
+        public ActionResult GetPhotosByCity(int cityId)
+        {
+            var photos = _appRepository.GetPhotosByCity(cityId);
+            return Ok(photos);
         }
     }
 }
