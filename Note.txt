@@ -78,3 +78,9 @@ the controlling part
 	-Need automapper configuration in Helpers
 	we add configuartion which object will map which object
 
+
+
+#JWT Configuration JSON WEB TOKEN
+Person who enter will be given a token
+When he send request we will check that token for the authentication 
+
