@@ -14,6 +14,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using SehirRehber.API.Data;
+using SehirRehber.API.Helper;
 
 namespace SehirRehber.API
 {
@@ -36,6 +37,10 @@ namespace SehirRehber.API
             // key
             var key = Encoding.ASCII.GetBytes(Configuration.GetSection("AppSettings:Token").Value);
 
+            // Cloudinary Mappings
+            // this Configuration to add remove photos to cloud
+            services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
+            
             services.AddDbContext<DataContext>(x =>
                 x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddAutoMapper();

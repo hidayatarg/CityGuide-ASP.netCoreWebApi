@@ -96,3 +96,11 @@ Reasons:
 
 
 #In startup.cs we need place a rule if program want IAuthRepository give AuthRepository
+
+
+#We save Photos to the cloud 
+#Using Cloudinary.com
+You can Use AWS or azure too for saving files and contents.
+-On Project.Api Go to NuGet Package manager and install CloudinaryDotNet version 1.31.0
+-We the data : >>Cloud name, API Key, API Secret
+-Save them to appSettings.JSON
