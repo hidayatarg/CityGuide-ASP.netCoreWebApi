@@ -24,16 +24,17 @@ namespace SehirRehber.API
             Configuration = configuration;
         }
 
-       
 
-        public IConfiguration Configuration { get; }
+
+        public IConfiguration Configuration;
 
         // This method gets called by the runtime. Use this method to add services to the container.
         // Web configuration place
         public void ConfigureServices(IServiceCollection services)
         {
+           
             // key
-            var key = Encoding.ASCII.GetBytes(Configuration.GetSection("AppSetting:Toke").Value);
+            var key = Encoding.ASCII.GetBytes(Configuration.GetSection("AppSettings:Token").Value);
 
             services.AddDbContext<DataContext>(x =>
                 x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
@@ -63,6 +64,7 @@ namespace SehirRehber.API
 
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(key),
+                    // User should make them true
                     ValidateIssuer = false,
                     ValidateAudience = false
                 };

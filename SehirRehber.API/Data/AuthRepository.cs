@@ -11,6 +11,11 @@ namespace SehirRehber.API.Data
     {
         private DataContext _context;
 
+        public AuthRepository(DataContext context)
+        {
+            _context = context;
+        }
+
         public async Task<User> Register(User user, string password)
         {
             // Salting Password
@@ -28,6 +33,7 @@ namespace SehirRehber.API.Data
             return user;
         }
 
+        // Hashing Method
         private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
         {
             using (var hmac= new System.Security.Cryptography.HMACSHA512())
@@ -38,9 +44,7 @@ namespace SehirRehber.API.Data
             }
         }
 
-        // Hashing Method
-
-
+        
         public async Task<User> Login(string userName, string password)
         {
             var user = await _context.Users.FirstOrDefaultAsync(x => x.UserName == userName);
@@ -58,6 +62,7 @@ namespace SehirRehber.API.Data
             return user;
         }
 
+        // Password Verification Function
         private bool VerifyPasswordHash(string password, byte[] userPasswordHash, byte[] userPasswordSalt)
         {
             using (var hmac = new System.Security.Cryptography.HMACSHA512(userPasswordSalt))

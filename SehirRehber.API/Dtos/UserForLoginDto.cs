@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SehirRehber.API.Dtos
 {
-    public class UserLoginDto
+    public class UserForLoginDto
     {
         public string UserName  { get; set; }
         public string Password  { get; set; }
