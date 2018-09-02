@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Http;
 
 namespace SehirRehber.API.Dtos
 {
-    public class PhotoForCreatingDto
+    public class PhotoForCreationDto
     {
-        public PhotoForCreatingDto()
+        public PhotoForCreationDto()
         {
             DateAdded = DateTime.Now;
         }
