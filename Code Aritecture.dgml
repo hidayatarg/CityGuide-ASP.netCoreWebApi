@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @9 Type=PhotoForReturnDto)" Category="CodeSchema_Class" Bounds="1240.59317395676,116.953756831138,164.133333333333,25.0000000000001" CodeSchemaProperty_IsPublic="True" CommonLabel="PhotoForReturnDto" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="PhotoForReturnDto" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Dtos/PhotoForReturnDto.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=34)" UseManualLocation="True" />
+    <Node Id="(@1 @9 Type=UserForLoginDto)" Category="CodeSchema_Class" Bounds="110.099718788414,90.9837491950179,150.803333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="UserForLoginDto" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="UserForLoginDto" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Dtos/UserForLoginDto.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=32)" UseManualLocation="True" />
+    <Node Id="(@1 @9 Type=UserForRegisterDto)" Category="CodeSchema_Class" Bounds="61.5089115932412,187.525154284026,164.046666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="UserForRegisterDto" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="UserForRegisterDto" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Dtos/UserForRegisterDto.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=35)" UseManualLocation="True" />
+    <Node Id="(@1 Namespace=SehirRehber.API.Helper Type=CloudinarySettings)" Category="CodeSchema_Class" Bounds="1258.63960757574,189.47231596028,160.646666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="CloudinarySettings" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CloudinarySettings" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Helper/CloudinarySettings.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=35)" UseManualLocation="True" />
+    <Node Id="(@1 Namespace=SehirRehber.API.Helper Type=JwtExtension)" Category="CodeSchema_Class" Bounds="139.125149629423,-304.989233067096,128.553333333333,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="JwtExtension" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="JwtExtension" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Helper/JWTExtension.cs StartLineNumber=8 StartCharacterOffset=25 EndLineNumber=8 EndCharacterOffset=37)" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Class" Bounds="768.223063564765,339.45267117677,117.783333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="CityForDto" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CityForDto" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Dtos/CityForDto.cs StartLineNumber=9 StartCharacterOffset=17 EndLineNumber=9 EndCharacterOffset=27)" UseManualLocation="True" />
+    <Node Id="@11" Category="CodeSchema_Class" Bounds="960.901085602055,11.5668656757576,135.5,25" CodeSchemaProperty_IsPublic="True" CommonLabel="CityForListDto" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CityForListDto" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Dtos/CityForListDto.cs StartLineNumber=8 StartCharacterOffset=17 EndLineNumber=8 EndCharacterOffset=31)" UseManualLocation="True" />
+    <Node Id="@12" Category="CodeSchema_Class" Bounds="374.899119049032,-359.574313100529,126.86,25" CodeSchemaProperty_IsPublic="True" CommonLabel="DataContext" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="DataContext" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Data/DataContext.cs StartLineNumber=9 StartCharacterOffset=17 EndLineNumber=9 EndCharacterOffset=28)" UseManualLocation="True" />
+    <Node Id="@13" Category="CodeSchema_Interface" Bounds="526.367733727401,28.2856147235253,142.303333333333,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IAppRepository" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IAppRepository" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Data/IAppRepository.cs StartLineNumber=8 StartCharacterOffset=21 EndLineNumber=8 EndCharacterOffset=35)" UseManualLocation="True" />
+    <Node Id="@14" Category="CodeSchema_Interface" Bounds="232.111791698801,11.439569902499,145.843333333333,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IAuthRepository" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IAuthRepository" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Data/IAuthRepository.cs StartLineNumber=8 StartCharacterOffset=21 EndLineNumber=8 EndCharacterOffset=36)" UseManualLocation="True" />
+    <Node Id="@15" Category="CodeSchema_Class" Bounds="1213.35690848188,-245.463593694058,92.6366666666668,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Photo" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Photo" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Models/Photo.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=22)" UseManualLocation="True" />
+    <Node Id="@16" Category="CodeSchema_Class" Bounds="1222.11932515771,26.6868518219717,173.99,25" CodeSchemaProperty_IsPublic="True" CommonLabel="PhotoForCreationDto" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="PhotoForCreationDto" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Dtos/PhotoForCreationDto.cs StartLineNumber=8 StartCharacterOffset=17 EndLineNumber=8 EndCharacterOffset=36)" UseManualLocation="True" />
+    <Node Id="@17" Category="CodeSchema_Class" Bounds="970.201345845973,433.757549498856,150.513333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="PhotosController" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="PhotosController" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Controllers/PhotosController.cs StartLineNumber=21 StartCharacterOffset=17 EndLineNumber=21 EndCharacterOffset=33)" UseManualLocation="True" />
+    <Node Id="@18" Category="CodeSchema_Class" Bounds="364.883285389653,-246.688303995298,84.7866666666666,25" CodeSchemaProperty_IsPublic="True" CommonLabel="User" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="User" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Models/User.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=21)" UseManualLocation="True" />
+    <Node Id="@3" Category="CodeSchema_Class" Bounds="477.878869205888,-121.167795062944,139.11,25" CodeSchemaProperty_IsPublic="True" CommonLabel="AppRepository" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="AppRepository" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Data/AppRepository.cs StartLineNumber=9 StartCharacterOffset=17 EndLineNumber=9 EndCharacterOffset=30)" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Class" Bounds="354.082555992723,418.528476579829,139.17,25" CodeSchemaProperty_IsPublic="True" CommonLabel="AuthController" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="AuthController" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Controllers/AuthController.cs StartLineNumber=21 StartCharacterOffset=17 EndLineNumber=21 EndCharacterOffset=31)" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Class" Bounds="153.580165885089,-157.588485006902,142.65,25" CodeSchemaProperty_IsPublic="True" CommonLabel="AuthRepository" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="AuthRepository" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Data/AuthRepository.cs StartLineNumber=9 StartCharacterOffset=17 EndLineNumber=9 EndCharacterOffset=31)" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="953.984699541458,-97.2950594587074,166.93,25" CodeSchemaProperty_IsPublic="True" CommonLabel="AutoMapperProfiles" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="AutoMapperProfiles" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Helper/AutoMapperProfiles.cs StartLineNumber=10 StartCharacterOffset=17 EndLineNumber=10 EndCharacterOffset=35)" UseManualLocation="True" />
+    <Node Id="@7" Category="CodeSchema_Class" Bounds="544.072653274945,432.442973412949,142.463333333334,25" CodeSchemaProperty_IsPublic="True" CommonLabel="CitiesController" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CitiesController" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Controllers/CitiesController.cs StartLineNumber=16 StartCharacterOffset=17 EndLineNumber=16 EndCharacterOffset=33)" UseManualLocation="True" />
+    <Node Id="@8" Category="CodeSchema_Class" Bounds="738.621170791479,-241.177032989072,81.21,25" CodeSchemaProperty_IsPublic="True" CommonLabel="City" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="City" SourceLocation="(Assembly=file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/Models/city.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=21)" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@15" Category="References" Bounds="838.601928710938,-212.559112548828,409.964599609375,552.011779785156" IsSourceVirtualized="True" Weight="4" />
+    <Link Source="@12" Target="@15" Category="References" Bounds="501.590127420859,-338.285376286198,702.852402177449,97.6482277397525" IsSourceVirtualized="True" Weight="4" />
+    <Link Source="@12" Target="@18" Category="References" Bounds="413.102139116192,-334.574313100529,21.7885002031355,79.2083344817627" IsSourceVirtualized="True" Weight="4" />
+    <Link Source="@12" Target="@8" Category="References" Bounds="474.319921732752,-334.574313100529,260.449013607397,90.4567952735629" IsSourceVirtualized="True" Weight="4" />
+    <Link Source="@13" Target="@15" Category="References" Bounds="627.754914372755,-217.02506931984,593.367569321157,245.310684043365" IsSourceVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@13" Target="@8" Category="References" Bounds="605.948526468677,-208.715077645869,159.816697260115,237.000692369395" IsSourceVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@14" Target="@18" Category="References" Bounds="309.984645872536,-213.320793970136,89.0264564552326,224.760363872635" IsSourceVirtualized="True" Weight="3" />
+    <Link Source="@15" Target="@8" Category="References" Bounds="828.830812604472,-232.5503420935,384.526095877411,3.4307371000169" IsSourceVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@17" Target="(@1 @9 Type=PhotoForReturnDto)" Category="References" Bounds="1055.71984863281,147.041534423828,240.57373046875,286.716003417969" IsSourceVirtualized="True" Weight="2" />
+    <Link Source="@17" Target="(@1 Namespace=SehirRehber.API.Helper Type=CloudinarySettings)" Category="References" Bounds="1060.47656910655,220.229771000424,256.550322060034,213.527778498432" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@17" Target="@13" Category="References" Bounds="618.000957851399,59.3254246545294,413.647880286238,374.432124844327" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="5">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@17" Target="@15" Category="References" Bounds="1049.40034468695,-211.880357253865,203.625527419722,645.637906752721" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="10">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@17" Target="@16" Category="References" Bounds="1052.24768066406,59.4829330444336,203.2978515625,374.274604797363" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@17" Target="@8" Category="CodeSchema_Calls" Bounds="787.459330713798,-207.804832583583,253.06798465002,641.562382082439" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3" />
+    <Link Source="@18" Target="@8" Category="References" Bounds="391.281799316406,-256.583404541016,338.425415039063,19.4529266357422" IsSourceVirtualized="True" Weight="5" />
+    <Link Source="@3" Target="@12" Category="References" Bounds="447.794853414023,-326.390586980613,93.9184952784713,205.222791917669" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@3" Target="@13" Category="Implements" Bounds="551.622928128978,-96.167795062944,38.8476089870035,115.919857240715" Weight="1" />
+    <Link Source="@3" Target="@15" Category="References" Bounds="614.65358664371,-223.339013110511,589.870760602987,102.940463862251" IsSourceVirtualized="True" Weight="11">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@3" Target="@8" Category="References" Bounds="571.577042013996,-212.039053353353,175.513639375647,90.8712582904089" IsSourceVirtualized="True" Weight="9">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@4" Target="(@1 @9 Type=UserForLoginDto)" Category="References" Bounds="199.883300988122,123.262883200101,214.695184466082,295.265593379728" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@4" Target="(@1 @9 Type=UserForRegisterDto)" Category="References" Bounds="165.63454127803,218.251003314343,242.874395550581,200.277473265486" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="5">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@4" Target="@14" Category="References" Bounds="311.194256545391,45.0801411673043,108.830541818674,373.448335412525" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="5">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@4" Target="@18" Category="References" Bounds="407.806311299283,-212.69103483368,15.55324477243,631.219511413509" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="19">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@5" Target="@12" Category="References" Bounds="238.113020315909,-328.387925595888,180.471531853187,170.799440588986" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="5">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@5" Target="@14" Category="Implements" Bounds="230.830831044885,-132.588485006902,64.4217342691474,135.895575711547" Weight="1" />
+    <Link Source="@5" Target="@18" Category="References" Bounds="250.490438519264,-217.737544359151,123.114406577314,60.1490593522486" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="40">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@6" Target="@10" Category="References" Bounds="837.039731329148,-72.2950594587074,194.390046568872,403.639071408714" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@6" Target="@11" Category="References" Bounds="1030.38642893053,-72.2950594587074,6.05297546773454,74.8911779454604" IsSourceVirtualized="True" Weight="7" />
+    <Link Source="@6" Target="@15" Category="References" Bounds="1056.19739987309,-215.470867999539,177.241971597775,118.175808540831" IsSourceVirtualized="True" Weight="3" />
+    <Link Source="@6" Target="@16" Category="References" Bounds="1064.83924197653,-72.2950594587074,208.697905897608,95.2452502594539" IsSourceVirtualized="True" Weight="2" />
+    <Link Source="@6" Target="@8" Category="References" Bounds="809.521717953276,-211.796374840209,205.494357485205,114.501315381501" IsSourceVirtualized="True" Weight="8" />
+    <Link Source="@7" Target="@10" Category="References" Bounds="643.776430096693,368.070593674126,146.625398949476,64.3723797388225" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@7" Target="@11" Category="References" Bounds="627.580698846878,42.9880035904746,382.487742086387,389.454969822474" IsSourceVirtualized="True" Weight="1" />
+    <Link Source="@7" Target="@13" Category="References" Bounds="598.465123661923,62.2769134030482,16.2891345535699,370.166060009901" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="7">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@7" Target="@8" Category="References" Bounds="618.346128552029,-207.43222833285,155.710231861055,639.875201745799" IsSourceVirtualized="True" Weight="2" />
+    <Link Source="@8" Target="@15" Category="References" Bounds="819.831170791479,-232.470047399887,384.526095877411,3.43073710001693" IsSourceVirtualized="True" Weight="5" />
+    <Link Source="@8" Target="@18" Category="References" Bounds="440.816986083984,-250.741989135742,297.804168701172,20.6552124023438" IsSourceVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Implements" Label="Implements" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Implemented by" OutgoingActionLabel="Implements" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="Is Abstract" Description="Flag to indicate member is 'Abstract' does not provide a full implementation" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsFinal" Label="Is Final" Description="Flag to indicate the member is 'Final' and cannot be derived from" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsSourceVirtualized" Label="Link Source Virtualized" Description="If true, the link source end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="IsTargetVirtualized" Label="Link Target Virtualized" Description="If true, the link target end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(bfa6afbf-5f88-4bbd-8041-edfb8f0c7996.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=SehirRehber.API.Data" />
+    <Alias n="3" Id="(@1 @2 Type=AppRepository)" />
+    <Alias n="4" Id="(@1 Namespace=SehirRehber.API.Controllers Type=AuthController)" />
+    <Alias n="5" Id="(@1 @2 Type=AuthRepository)" />
+    <Alias n="6" Id="(@1 Namespace=SehirRehber.API.Helper Type=AutoMapperProfiles)" />
+    <Alias n="7" Id="(@1 Namespace=SehirRehber.API.Controllers Type=CitiesController)" />
+    <Alias n="8" Id="(@1 Namespace=SehirRehber.API.Models Type=City)" />
+    <Alias n="9" Id="Namespace=SehirRehber.API.Dtos" />
+    <Alias n="10" Id="(@1 @9 Type=CityForDto)" />
+    <Alias n="11" Id="(@1 @9 Type=CityForListDto)" />
+    <Alias n="12" Id="(@1 @2 Type=DataContext)" />
+    <Alias n="13" Id="(@1 @2 Type=IAppRepository)" />
+    <Alias n="14" Id="(@1 @2 Type=IAuthRepository)" />
+    <Alias n="15" Id="(@1 Namespace=SehirRehber.API.Models Type=Photo)" />
+    <Alias n="16" Id="(@1 @9 Type=PhotoForCreationDto)" />
+    <Alias n="17" Id="(@1 Namespace=SehirRehber.API.Controllers Type=PhotosController)" />
+    <Alias n="18" Id="(@1 Namespace=SehirRehber.API.Models Type=User)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Test Project" ValueLabel="Test Project">
+      <Condition Expression="HasCategory('CodeMap_TestProject')" />
+      <Setter Property="Icon" Value="CodeMap_TestProject" />
+      <Setter Property="Background" Value="#FF307A69" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Web Project" ValueLabel="Web Project">
+      <Condition Expression="HasCategory('CodeMap_WebProject')" />
+      <Setter Property="Icon" Value="CodeMap_WebProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Windows Store Project" ValueLabel="Windows Store Project">
+      <Condition Expression="HasCategory('CodeMap_WindowsStoreProject')" />
+      <Setter Property="Icon" Value="CodeMap_WindowsStoreProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Phone Project" ValueLabel="Phone Project">
+      <Condition Expression="HasCategory('CodeMap_PhoneProject')" />
+      <Setter Property="Icon" Value="CodeMap_PhoneProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Portable Library" ValueLabel="Portable Library">
+      <Condition Expression="HasCategory('CodeMap_PortableLibraryProject')" />
+      <Setter Property="Icon" Value="CodeMap_PortableLibraryProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WPF Project" ValueLabel="WPF Project">
+      <Condition Expression="HasCategory('CodeMap_WpfProject')" />
+      <Setter Property="Icon" Value="CodeMap_WpfProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="VSIX Project" ValueLabel="VSIX Project">
+      <Condition Expression="HasCategory('CodeMap_VsixProject')" />
+      <Setter Property="Icon" Value="CodeMap_VsixProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Modeling Project" ValueLabel="Modeling Project">
+      <Condition Expression="HasCategory('CodeMap_ModelingProject')" />
+      <Setter Property="Icon" Value="CodeMap_ModelingProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF0E70C0" />
+      <Setter Property="Stroke" Value="#FF0E70C0" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="Has category">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Calls" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Function Pointer" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Write" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldWrite')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+      <Setter Property="IsHidden" Value="false" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Return" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_ReturnTypeLink')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="References" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses Attribute" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_AttributeUse')" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Solution Folder" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeMap_SolutionFolder')" />
+      <Setter Property="Background" Value="#FFDEBA83" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Project Reference" ValueLabel="Project Reference">
+      <Condition Expression="HasCategory('CodeMap_ProjectReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="External Reference" ValueLabel="External Reference">
+      <Condition Expression="HasCategory('CodeMap_ExternalReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="bfa6afbf-5f88-4bbd-8041-edfb8f0c7996.OutputPath" Value="C:\Users\monster\source\repos\SehirRehber.API\SehirRehber.API\bin\Debug\netcoreapp2.0\SehirRehber.API.dll" />
+    <Path Id="bfa6afbf-5f88-4bbd-8041-edfb8f0c7996.OutputPathUri" Value="file:///C:/Users/monster/source/repos/SehirRehber.API/SehirRehber.API/bin/Debug/netcoreapp2.0/SehirRehber.API.dll" />
+  </Paths>
+</DirectedGraph>

@@ -45,8 +45,10 @@ namespace SehirRehber.API.Controllers
             _cloudinary = new Cloudinary(account);
         }
 
+        // For sending file we need to use FromForm 
+
         [HttpPost]
-        public ActionResult AddPhotoForCity(int cityId, [FromBody] PhotoForCreationDto photoForCreationDto)
+        public ActionResult AddPhotoForCity(int cityId, [FromForm] PhotoForCreationDto photoForCreationDto)
         {
             var city = _appRepository.GetCityById(cityId);
 
