@@ -13,6 +13,9 @@ namespace SehirRehber.API.Data
 
         void Delete<T>(T entity) where T : class;
 
+        //deleting city
+        void DeleteCityById(int cityId);
+
         //Pattern of Unity
         bool SaveAll();
 
@@ -27,5 +30,8 @@ namespace SehirRehber.API.Data
 
         //single photo
         Photo GetPhoto(int id);
+
+
+
     }
 }

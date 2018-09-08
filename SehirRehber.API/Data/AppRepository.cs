@@ -25,7 +25,21 @@ namespace SehirRehber.API.Data
         public void Delete<T>(T entity) where T : class
         {
             _context.Remove(entity);
+            
         }
+
+
+        public void DeleteCityById(int cityId)
+        {
+            var cityInDb = _context.Cities.FirstOrDefault(c => c.Id == cityId);
+            if (cityInDb == null)
+            {
+                throw new InvalidOperationException();
+            }
+            _context.Cities.Remove(cityInDb);
+            _context.SaveChanges();
+        }
+
 
         public bool SaveAll()
         {
@@ -58,5 +72,7 @@ namespace SehirRehber.API.Data
             var photo = _context.Photos.FirstOrDefault(p => p.Id == id);
             return photo;
         }
+
+        
     }
 }

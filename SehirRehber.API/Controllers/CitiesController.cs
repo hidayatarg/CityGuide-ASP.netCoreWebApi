@@ -62,6 +62,7 @@ namespace SehirRehber.API.Controllers
             return Ok(city);
 
         }
+        
 
         [HttpGet]
         [Route("detail")]
@@ -71,6 +72,18 @@ namespace SehirRehber.API.Controllers
             var cityToReturn = _mapper.Map<CityForDto>(city);
             return Ok(cityToReturn);
         }
+
+
+        [HttpPost]
+        [Route("delete")]
+        public ActionResult DeleteCityById(int id)
+        {
+            _appRepository.DeleteCityById(id);
+            _appRepository.SaveAll();
+            return Ok();
+
+        }
+
 
         // api/cities/photos/?cityId=1
         [HttpGet]
