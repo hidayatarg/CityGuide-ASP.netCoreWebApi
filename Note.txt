@@ -12,6 +12,8 @@ the controlling part
             var values = _context.Values.ToList();
             return Ok(values);
         }
+	
+
 
 
 
@@ -65,6 +67,11 @@ the controlling part
 		[PublicId]    NVARCHAR (250) NULL
 
 	);
+	
+	CREATE TABLE [dbo].[Values] (
+   	 [Id]   	INT      PRIMARY KEY     NOT NULL,
+    	[Name] 		NVARCHAR (50) NULL,
+);
 
 #IAppRepository All operation Signature are placed
 
