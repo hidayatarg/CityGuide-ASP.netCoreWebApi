@@ -4,6 +4,7 @@ This is a cityGuide Api writen with Asp.net Core.
 This application has an  [angular 6](https://github.com/hidayatarg/CityGuide-Angular).front end
 #Enjoy Coding
 
+Use Angular 7.0.3 rather than most recent version 7.0.4 at this time.
 
 # SQL Database Design
 ```sql
